@@ -28,27 +28,26 @@ export function HeroSection() {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           {/* Left Column - Avatar & Personal Info */}
           <div className="w-full lg:w-2/5 flex flex-col items-center lg:items-start">
-            {/* Avatar/Profile Image */}
-            <div className="relative mb-20">
-              <div className="w-64 h-64 lg:w-80 lg:h-80  rounded-full overflow-hidden border-4 border-white shadow-2xl">
-                {/* Placeholder for profile image - You can replace this with an actual image */}
+            {/* Avatar/Profile Image - Square with Rounded Corners */}
+            <div className="relative mb-8 lg:mb-20">
+              <div className="w-80 h-80 lg:w-90 lg:h-90 rounded-3xl overflow-hidden border-4 border-white shadow-2xl">
                 <div className="w-full h-full flex items-center justify-center">
                   <div className="text-center">
                     <img
                       src={HeroImage}
                       alt="Profile"
-                      className="w-full h-full"
+                      className="w-full h-full object-cover"
                     />
                   </div>
                 </div>
               </div>
 
               {/* Status Indicator */}
-              <div className="absolute bottom-6 right-6 bg-green-500 w-6 h-6 rounded-full border-4 border-white shadow-lg"></div>
+              <div className="absolute bottom-4 right-4 lg:bottom-6 lg:right-6 bg-green-500 w-5 h-5 lg:w-6 lg:h-6 rounded-full border-4 border-white shadow-lg"></div>
             </div>
 
-            {/* Contact Info Card */}
-            <div className="bg-white rounded-2xl p-6 border-2 border-gray-100 w-full max-w-sm">
+            {/* Contact Info Card - Hidden on Mobile, Visible on Large Screens */}
+            <div className="hidden lg:block bg-white rounded-2xl p-6 border-2 border-gray-100 w-full max-w-sm">
               <h3 className="font-black text-black mb-4 flex items-center gap-2">
                 <Briefcase className="w-5 h-5" />
                 Contact Information

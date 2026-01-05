@@ -1,6 +1,5 @@
 import { AboutSection } from "../components/AboutCard";
 import { SkillGroup } from "../components/SkillTag";
-import { Footer } from "../components/Footer";
 
 export function AboutPage() {
   const educationItems = [
