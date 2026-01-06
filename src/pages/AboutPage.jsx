@@ -11,7 +11,6 @@ export function AboutPage() {
       description:
         "Specialized in web development with focus on full-stack applications, database management, and software engineering principles.",
       items: [
-        "Graduated with honors",
         "Capstone project: Online Vehicle Management System",
         "Active member of IT student organization",
       ],
