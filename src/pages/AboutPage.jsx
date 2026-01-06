@@ -10,10 +10,7 @@ export function AboutPage() {
       date: "2021 - 2025",
       description:
         "Specialized in web development with focus on full-stack applications, database management, and software engineering principles.",
-      items: [
-        "Capstone project: Online Vehicle Management System",
-        "Active member of IT student organization",
-      ],
+      items: ["Capstone project: Online Vehicle Management System"],
       tags: ["Web Development", "Database Management", "Software Engineering"],
     },
   ];
