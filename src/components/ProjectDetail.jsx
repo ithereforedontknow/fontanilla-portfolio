@@ -131,8 +131,43 @@ const projectsData = {
       "Created engaging user experience with animations",
       "Demonstrated proficiency in modern web technologies",
     ],
-    liveUrl: null,
+    liveUrl: "https://spillthebeans-three.vercel.app/",
     githubUrl: null,
+    images: [
+      "https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    ],
+  },
+  "music.me": {
+    id: "music.me",
+    title: "music.me - Music Recommendation App",
+    category: "React Application",
+    description:
+      "A music recommendation app built with React, Tailwind CSS, and JavaScript.",
+    fullDescription:
+      "A sleek, user-centric music discovery platform designed to help listeners find their next favorite track. By leveraging React's component-based architecture and Tailwind CSS for styling, the app provides a seamless interface for exploring curated recommendations and personalized playlists.",
+    year: "2026",
+    role: "Frontend Developer",
+    technologies: ["React", "Tailwind CSS", "JavaScript"],
+    features: [
+      "Personalized music recommendation engine",
+      "Dynamic search functionality for artists and tracks",
+      "Interactive playlist creation and management",
+      "Responsive UI optimized for desktop and mobile",
+      "Real-time audio playback controls",
+    ],
+    challenges: [
+      "Integrating complex third-party music APIs",
+      "Maintaining state across multiple playback components",
+      "Designing a high-performance filtering system",
+    ],
+    outcomes: [
+      "Achieved sub-second response times for searches",
+      "Built a highly reusable UI component library",
+      "Delivered a polished, modern aesthetic using Tailwind CSS",
+    ],
+    liveUrl: "https://music-me-green.vercel.app/",
+    githubUrl: "https://github.com/ithereforedontknow/music.me",
     images: [
       "https://images.unsplash.com/photo-1498804103079-a6351b050096?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
       "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
@@ -300,10 +335,8 @@ export function ProjectDetail() {
                             rel="noopener noreferrer"
                             className="px-4 py-2 bg-black text-white rounded-xl hover:bg-gray-800 transition-all duration-300 flex items-center gap-2"
                           >
-                            <ExternalLink className="w-4 h-4" />
-                            <span className="font-semibold text-sm">
-                              Live Demo
-                            </span>
+                            <ExternalLink className="w-6 h-6" />
+                            <span className="font-semibold text-sm">Demo</span>
                           </a>
                         )}
 

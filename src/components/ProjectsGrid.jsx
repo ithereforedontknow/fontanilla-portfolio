@@ -45,7 +45,19 @@ const allProjects = [
     technologies: ["React", "Tailwind CSS", "JavaScript", "Appwrite"],
     role: "Full-Stack Developer",
     stack: "Full-Stack",
-    year: "2024",
+    year: "2025",
+    featured: true,
+  },
+  {
+    id: "music.me",
+    title: "music.me - Music Recommendation App",
+    category: "React Application",
+    description:
+      "A music recommendation app built with React, Tailwind CSS, and JavaScript.",
+    technologies: ["React", "Tailwind CSS", "JavaScript"],
+    role: "Frontend Developer",
+    stack: "Frontend",
+    year: "2026",
     featured: true,
   },
 ];
